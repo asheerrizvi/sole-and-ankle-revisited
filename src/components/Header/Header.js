@@ -62,12 +62,12 @@ const MainHeader = styled.div`
   align-items: baseline;
   padding: 18px 32px;
   height: 72px;
-  border-top: 4px solid ${COLORS.gray[900]};
   border-bottom: 1px solid ${COLORS.gray[300]};
 
   @media ${QUERIES.tabletAndSmaller} {
     align-items: center;
     justify-content: space-between;
+    border-top: 4px solid ${COLORS.gray[900]};
   }
 
   @media ${QUERIES.phoneAndSmaller} {
